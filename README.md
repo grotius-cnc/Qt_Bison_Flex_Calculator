@@ -20,14 +20,19 @@ wget https://github.com/grotius-cnc/Qt_Bison_Flex_Calculator/releases/download/1
 wget https://github.com/grotius-cnc/Qt_Bison_Flex_Calculator/releases/download/1.0.0/flex_2.6.4-8_amd64.deb
 
 sudo dpkg -i bison_2.3a3.8.2+dfsg-1_amd64.deb
+
 sudo dpkg -i flex_2.6.4-8_amd64.deb
 
 Info bison :
+
 mDepends: m4, libc6 (>= 2.29)
+
 Suggests: bison-doc
 
 Info flex :
+
 Depends: libc6 (>= 2.26), m4
+
 Recommends: gcc | c-compiler, libfl-dev
 
 At some git repositories you will see the -lfl compile flag hanging around in the Qt.pro file, this will point to the libfl-dev.
