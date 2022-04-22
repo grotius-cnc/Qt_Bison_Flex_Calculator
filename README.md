@@ -12,7 +12,7 @@ Things to mention :
 
 Result :
 
-![screen01](https://user-images.githubusercontent.com/44880102/164615888-5ab6f431-7554-421f-801c-41d3e634b4b1.jpg)
+   ![screen01](https://user-images.githubusercontent.com/44880102/164615888-5ab6f431-7554-421f-801c-41d3e634b4b1.jpg)
 
 Install Bison & Flex :
 
@@ -23,14 +23,11 @@ Install Bison & Flex :
 
 Info bison :
 
-mDepends: m4, libc6 (>= 2.29)
-
-Suggests: bison-doc
+    mDepends: m4, libc6 (>= 2.29)
+    Suggests: bison-doc
 
 Info flex :
 
-Depends: libc6 (>= 2.26), m4
-
-Recommends: gcc | c-compiler, libfl-dev
-
-At some git repositories you will see the -lfl compile flag hanging around in the Qt.pro file, this will point to the libfl-dev.
+    Depends: libc6 (>= 2.26), m4
+    Recommends: gcc | c-compiler, libfl-dev
+    At some git repositories you will see the -lfl compile flag hanging around in the Qt.pro file, this will point to the libfl-dev.
