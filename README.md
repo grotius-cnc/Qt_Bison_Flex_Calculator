@@ -7,8 +7,12 @@ Modified by Skynet Cyberdyne :
   - Added a easy calculator example from : https://github.com/ckshitij/LEX-AND-YACC
   - Modified the MainWindow to use with calculator.
 
-Things to mention :
+Things to keep in mind :
 
+  - To create the connection between Qt & Bison/Flex on c-c++ level is quite a dramatic tour. This struct is used by common.h :
+  
+              scanner.h line 158:
+              typedef struct yy_buffer_state *YY_BUFFER_STATE;
 
 Result :
 
