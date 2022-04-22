@@ -16,12 +16,9 @@ Result :
 
 Install Bison & Flex :
 
-wget https://github.com/grotius-cnc/Qt_Bison_Flex_Calculator/releases/download/1.0.0/bison_2.3a3.8.2+dfsg-1_amd64.deb
-
-wget https://github.com/grotius-cnc/Qt_Bison_Flex_Calculator/releases/download/1.0.0/flex_2.6.4-8_amd64.deb
-
+    wget https://github.com/grotius-cnc/Qt_Bison_Flex_Calculator/releases/download/1.0.0/bison_2.3a3.8.2+dfsg-1_amd64.deb
+    wget https://github.com/grotius-cnc/Qt_Bison_Flex_Calculator/releases/download/1.0.0/flex_2.6.4-8_amd64.deb
     sudo dpkg -i bison_2.3a3.8.2+dfsg-1_amd64.deb
-
     sudo dpkg -i flex_2.6.4-8_amd64.deb
 
 Info bison :
